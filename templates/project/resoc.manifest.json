@@ -43,7 +43,7 @@
     {
       "name": "stars",
       "type": "number",
-      "demoValue": "8203"
+      "demoValue": "8042"
     },
     {
       "name": "forks",

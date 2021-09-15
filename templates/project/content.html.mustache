@@ -66,3 +66,11 @@
 
   <div class="techs"></div>
 </div>
+
+<script>
+  var formatter = Intl.NumberFormat('en', { notation: 'compact' });
+  var data = document.querySelectorAll(".metric-data");
+  for (var i = 0; i < data.length; i++) {
+    data[i].innerHTML = formatter.format(data[i].innerHTML);
+  }
+</script>
