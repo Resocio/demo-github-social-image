@@ -1,0 +1,54 @@
+{
+  "partials": {
+    "content": "./content.html.mustache",
+    "styles": "./styles.css.mustache"
+  },
+  "parameters": [
+    {
+      "name": "organization",
+      "type": "text",
+      "demoValue": "nasa"
+    },
+    {
+      "name": "project",
+      "type": "text",
+      "demoValue": "fprime"
+    },
+    {
+      "name": "description",
+      "type": "text",
+      "demoValue": "F' - A flight software and embedded systems framework"
+    },
+    {
+      "label": "Image",
+      "name": "imageUrl",
+      "type": "imageUrl",
+      "demoValue": "https://avatars.githubusercontent.com/u/848102"
+    },
+    {
+      "name": "contributors",
+      "type": "number",
+      "demoValue": "83"
+    },
+    {
+      "name": "issues",
+      "type": "number",
+      "demoValue": "55"
+    },
+    {
+      "name": "discussions",
+      "type": "number",
+      "demoValue": "5"
+    },
+    {
+      "name": "stars",
+      "type": "number",
+      "demoValue": "8203"
+    },
+    {
+      "name": "forks",
+      "type": "number",
+      "demoValue": "948"
+    }
+  ]
+}

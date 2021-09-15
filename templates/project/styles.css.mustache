@@ -1,0 +1,99 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  font-family: Roboto;
+  background-color: white;
+}
+
+main {
+  flex: 10;
+  display: flex;
+  align-items: top;
+
+  padding-top: 14vh;
+  padding-left: 13vh;
+  padding-right: 13vh;
+}
+
+.project {
+  flex: 3;
+}
+
+.title {
+  margin-top: 0;
+  font-size: 14vh;
+  margin-bottom: 0;
+}
+
+.project-name {
+  font-weight: bold;
+}
+
+.description {
+  font-size: 5vh;
+  color: #666;
+}
+
+.pic img {
+  max-width: 32vh;
+  width: 100%;
+  height: auto;
+}
+
+.secondary {
+  flex: 5.5;
+
+  display: flex;
+  padding-left: 13vh;
+  padding-right: 13vh;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.metrics {
+  display: flex;
+  flex-direction: row;
+  gap: 8vh;
+}
+
+.metric {
+  display: flex;
+  align-items: start;
+  gap: 2.5vh;
+  color: #71747f;
+}
+
+.metric img {
+  margin-top: 1vh;
+  height: 4.5vh;
+  /* https://codepen.io/sosuke/pen/Pjoqqp + #71747f */
+  filter: invert(46%) sepia(3%) saturate(1349%) hue-rotate(190deg) brightness(96%) contrast(85%);
+}
+
+.metric-data {
+  margin: 0;
+  font-size: 5vh;
+  color: #2f363d;
+}
+
+.metric-label {
+  margin: 0;
+  margin-top: 1.5vh;
+  font-size: 4vh;
+}
+
+.github-logo {
+  test-align: right;
+}
+
+.github-logo img {
+  height: 7.5vh;
+  /* https://codepen.io/sosuke/pen/Pjoqqp + #8492af */
+  filter: invert(66%) sepia(6%) saturate(1691%) hue-rotate(185deg) brightness(88%) contrast(80%);  
+}
+
+.techs {
+  flex: 0.7;
+  background-color: red;
+}
