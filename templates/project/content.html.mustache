@@ -64,7 +64,11 @@
     </div>
   </div>
 
-  <div class="techs"></div>
+  <div class="techs">
+    {{#technologies}}
+      <div style="background-color: {{ color }}; flex: {{ proportion }}"></div>
+    {{/technologies}}
+  </div>
 </div>
 
 <script>

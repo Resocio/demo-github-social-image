@@ -49,6 +49,19 @@
       "name": "forks",
       "type": "number",
       "demoValue": "948"
+    },
+    {
+      "name": "technologies",
+      "type": "objectList",
+      "demoValue": [
+        { "color": "#f34b7d", "proportion": "30.7" },
+        { "color": "#e34c26", "proportion": "23.3" },
+        { "color": "#cccccc", "proportion": "18.5" },
+        { "color": "#3572a5", "proportion": "14.8" },
+        { "color": "#3d6117", "proportion": "4.9" },
+        { "color": "#da3434", "proportion": "2.6" },
+        { "color": "#ededed", "proportion": "5.2" }
+      ]
     }
   ]
 }
